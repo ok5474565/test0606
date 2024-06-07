@@ -54,8 +54,8 @@ def generate_wordcloud(words, max_words=100, max_font_size=100):
         max_words=max_words,       # 显示的最大词数
         max_font_size=max_font_size,  # 字体最大大小
         random_state=42,            # 为了可重现性
-        width=800,                 # 宽度
-        height=400,                # 高度
+        width=1600,                 # 宽度
+        height=1200,                # 高度
         colormap='viridis'         # 颜色映射
     ).generate_from_frequencies(words)
     
