@@ -46,7 +46,7 @@ def extract_body_text(html):
     text = soup.find('body').get_text()
     return text
 
-def generate_wordcloud(words, max_words=100, max_font_size=100):
+def generate_wordcloud(words, max_words=200, max_font_size=200):
     # 创建词云对象
     wordcloud = WordCloud(
         font_path='simhei.ttf',  # 指定字体路径
