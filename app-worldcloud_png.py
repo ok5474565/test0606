@@ -100,7 +100,7 @@ def run():
         word_counts = Counter(words)
     
         # 生成词云图，指定掩膜图像路径
-        generate_wordcloud(word_counts, mask_image_path='images/map.png')
+        generate_wordcloud(word_counts, mask_image_path='images/mask1.png')
 
         # ... 省略其他代码 ...
 
