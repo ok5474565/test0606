@@ -71,7 +71,7 @@ def run():
       #  page_icon="",
     #)
 
-    st.write("# 作业展示 ")
+    #st.write("# 作业展示 ")
 
     url = st.text_input('Enter URL:')
 
