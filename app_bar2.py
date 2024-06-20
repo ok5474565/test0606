@@ -46,7 +46,7 @@ def run():
       #  page_icon=":bar_chart:"
     #)
     
-    st.write("# 文本分析工具")
+    #st.write("# 文本分析工具")
 
     url = st.text_input('输入新闻URL：')
     bar_chart_options = {}  # 初始化为空字典
