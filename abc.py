@@ -10,17 +10,17 @@ from app_worldcloud import run as wordcloud_run
 st.set_page_config(page_title="综合文本分析工具", layout="wide")
 
 # 创建下拉列表供用户选择功能
-function_options = ["文本分析工具", "新闻摘要", "生成词云图"]
+function_options = ["词频统计条形图", "简要总结", "词频生成词云图"]
 selected_option = st.sidebar.selectbox("选择功能：", options=function_options)
 
 # 根据用户选择的功能，调用相应的函数
-if selected_option == "文本分析工具":
-    st.title("文本分析工具")
+if selected_option == "词频统计条形图":
+    st.title("词频统计条形图")
     bar_chart_run()
-elif selected_option == "新闻摘要":
+elif selected_option == "简要总结":
     st.title("新闻摘要")
     summary_main()
-elif selected_option == "生成词云图":
+elif selected_option == "词频生成词云图":
     st.title("生成词云图")
     wordcloud_run()
 
