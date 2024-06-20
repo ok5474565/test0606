@@ -2,6 +2,7 @@
 import streamlit as st
 
 # 导入其他文件中的 run 函数
+# 注意文件名已经更改为使用下划线，导入时也使用下划线
 from app_bar2 import run as bar_chart_run
 from app_abstract import main as summary_main
 from app_worldcloud import run as wordcloud_run
@@ -24,4 +25,4 @@ elif selected_option == "生成词云图":
     st.title("生成词云图")
     wordcloud_run()
 
-# 确保每个 run 函数都能够独立运行并处理用户输入和显示结果
+# 确保每个 run 或 main 函数都能够独立运行并处理用户输入和显示结果
