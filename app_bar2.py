@@ -41,10 +41,10 @@ def extract_body_text(html):
     return text
 
 def run():
-    st.set_page_config(
-        page_title="文本分析工具",
-        page_icon=":bar_chart:"
-    )
+    #st.set_page_config(
+     #   page_title="文本分析工具",
+      #  page_icon=":bar_chart:"
+    #)
     
     st.write("# 文本分析工具")
 
