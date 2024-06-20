@@ -66,10 +66,10 @@ def generate_wordcloud(words, max_words=100, max_font_size=200):
     plt.show()
 
 def run():
-    st.set_page_config(
-        page_title="Hello",
-        page_icon="",
-    )
+    #st.set_page_config(
+     #   page_title="Hello",
+      #  page_icon="",
+    #)
 
     st.write("# 作业展示 ")
 
